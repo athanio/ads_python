@@ -32,3 +32,8 @@ def quadrado(x):
 v2 = list(map(quadrado, v1 ))
 print(v2)
 print()
+
+y = 3 ** 4 % 5
+valor = sum(range(5), 10)
+
+print("valor ", valor)
