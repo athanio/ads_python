@@ -6,11 +6,9 @@ dic = {
 }
 dados = '{"nome": "joao", "idade": 13, "habilidade": [ "php", "py", "js"],"cidade": "Parnaiba"}' 
 jsondados = json.loads(dados)
-
 print(jsondados['cidade'])
 print(jsondados['idade'])
 print(jsondados['habilidade'][1])
-
 with open("nome_arquivo.json", "w") as arquivo:
     dados = json.dump(dados, arquivo)
 
